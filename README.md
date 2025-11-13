@@ -3,7 +3,7 @@
   **Group 5:**
   1) Olivia Lucas
   2) Davis Williams 
-  3) Baye Wilson, (@baye-wilson)
+  3) Baye Wilson, [@baye-wilson] (https://github.com/baye-wilson/MIST4610Project2/blob/6d6aa4419d18361962ca227ddccd73d687728222/README.md)
   4) Franco Plathottathil
 ## Description of Dataset:
 ## Two Questions and Importance:
