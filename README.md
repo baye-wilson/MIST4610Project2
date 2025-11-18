@@ -46,6 +46,7 @@ Across the full timeline, warehouse sales consistently exceed retail sales, rein
 
 ## Question 3:
 ***SQL Code:***
+
 <img width="558" height="266" alt="Screenshot 2025-11-17 at 10 33 32 PM" src="https://github.com/user-attachments/assets/bd0288da-56fe-4849-919a-3668158b1307" />
 
 ***Snowflake Analysis:***
