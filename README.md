@@ -1,7 +1,7 @@
 # MIST4610Project2
 ## Team Name and Members:
   **Group 5:**
-  1) Olivia Lucas
+  1) Olivia Lucas, [@livlucas04-bit]((https://github.com/livlucas04-bit))
   2) Davis Williams 
   3) Baye Wilson, [@baye-wilson](https://github.com/baye-wilson/MIST4610Project2.git)
   4) Franco Plathottathil, [@francolinx](https://github.com/francolinx)
