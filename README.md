@@ -28,6 +28,9 @@ Firstly, we consolidated our data to only include the years 2019 and 2020- the o
 ***Snowflake Analysis:***
 <img width="822" height="380" alt="Screenshot 2025-11-17 at 10 03 47 PM" src="https://github.com/user-attachments/assets/584f9a59-f5a9-46a4-9906-7615c028744b" />
 
+To understand how retail performance shifted year-to-year, we aggregated retail sales by item type (Liquor, Wine, Beer, and Kegs) for both 2019 and 2020 and visualized them side-by-side. This bar chart clearly illustrates that every category saw lower total sales in 2020, with liquor and wine experiencing the largest declines. The code for this analysis filtered the data by both year and item type, then summed retail sales within each grouping to create a clean comparison across periods.
+One key observation is that 2019 contains significantly more robust data, which likely reflects a full year of normal retail activity before COVID-19 disruptions occurred. In contrast, the decreased totals in 2020 may be influenced by more than just reduced customer demand- many retailers in this dataset include bars, restaurants, and other on-premise establishments, which experienced prolonged shutdowns, limited capacity, and reduced hours. These operational constraints, combined with possible gaps in reporting or fewer transactions, contribute to the noticeable drop across all product categories.
+This comparison is meaningful for analysts, distributors, and inventory planners because it highlights how external events can shift consumer consumption patterns and affect product movement across the alcohol industry. The chart not only shows a decline in sales but also underscores the sensitivity of certain retail segments to macro-level disruptions, offering context for demand forecasting and operational decision-making.
 
 
 **Link to Snowflake dashboard:**
