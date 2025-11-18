@@ -32,6 +32,17 @@ To understand how retail performance shifted year-to-year, we aggregated retail 
 One key observation is that 2019 contains significantly more robust data, which likely reflects a full year of normal retail activity before COVID-19 disruptions occurred. In contrast, the decreased totals in 2020 may be influenced by more than just reduced customer demand- many retailers in this dataset include bars, restaurants, and other on-premise establishments, which experienced prolonged shutdowns, limited capacity, and reduced hours. These operational constraints, combined with possible gaps in reporting or fewer transactions, contribute to the noticeable drop across all product categories.
 This comparison is meaningful for analysts, distributors, and inventory planners because it highlights how external events can shift consumer consumption patterns and affect product movement across the alcohol industry. The chart not only shows a decline in sales but also underscores the sensitivity of certain retail segments to macro-level disruptions, offering context for demand forecasting and operational decision-making.
 
+## Question 2:
+***SQL Code:***
+<img width="696" height="385" alt="Screenshot 2025-11-17 at 10 04 50 PM" src="https://github.com/user-attachments/assets/da39d215-db80-4f7a-bc91-737a03f28124" />
+
+***Snowflake Analysis:***
+<img width="824" height="376" alt="Screenshot 2025-11-17 at 10 03 56 PM" src="https://github.com/user-attachments/assets/8f8cf04e-da46-417e-b4bc-c51d8b81a6a5" />
+
+To visualize trends over time, we aggregated retail and warehouse sales by month and constructed a continuous timeline from January 2019 through late 2020. By converting each (YEAR, MONTH) pair into a single DATE_FROM_PARTS field, we created a clean, chronological x-axis that avoids combining months across multiple years. This allowed us to clearly compare distribution-level sales activity (warehouse) with direct consumer-level sales (retail).
+The results show strong, uninterrupted data reporting throughout 2019, with both retail and warehouse sales following predictable seasonal patterns. However, beginning in 2020, we observe noticeable gaps and irregularities— certain months display incomplete or significantly lower totals. These anomalies align with the height of COVID-19’s operational disruptions, suggesting potential shutdowns, staffing shortages, or delays in data entry, rather than a true collapse in sales volume. The contrast between robust 2019 data and fragmented 2020 data provides an example of how external events can impact data availability and reliability.
+Across the full timeline, warehouse sales consistently exceed retail sales, reinforcing the scale difference between supply-chain distribution and point-of-sale activity. This visualization is meaningful for supply chain teams, inventory planners, and analysts because it highlights both demand patterns and data integrity challenges, offering a clearer understanding of how real-world events shape both operations and reporting.
+
 
 **Link to Snowflake dashboard:**
 https://app.snowflake.com/us-east-1/ilc76480/#/project-2-mist-4610-dKoEfiwWY 
