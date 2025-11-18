@@ -4,7 +4,8 @@
   1) Olivia Lucas
   2) Davis Williams 
   3) Baye Wilson, [@baye-wilson](https://github.com/baye-wilson/MIST4610Project2.git)
-  4) Franco Plathottathil, @francolinx
+  4) Franco Plathottathil, [@francolinx](https://github.com/francolinx)
+
 
 ## Description of Dataset:
 The dataset, derived from the CDC, describes the sales of liquor, wines, beers, and various supplies from the years 2019 to 2020. The 9 columns provided are: year, month, supplier, item description, item type, retail sales, retail transfers, and warehouse sales. Each sale is quantified by case, with each sale being contextualized by the month in which it was sold.  The data houses 342 unique suppliers as well as 26,822 unique products. 
