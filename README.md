@@ -43,6 +43,17 @@ To visualize trends over time, we aggregated retail and warehouse sales by month
 The results show strong, uninterrupted data reporting throughout 2019, with both retail and warehouse sales following predictable seasonal patterns. However, beginning in 2020, we observe noticeable gaps and irregularities— certain months display incomplete or significantly lower totals. These anomalies align with the height of COVID-19’s operational disruptions, suggesting potential shutdowns, staffing shortages, or delays in data entry, rather than a true collapse in sales volume. The contrast between robust 2019 data and fragmented 2020 data provides an example of how external events can impact data availability and reliability.
 Across the full timeline, warehouse sales consistently exceed retail sales, reinforcing the scale difference between supply-chain distribution and point-of-sale activity. This visualization is meaningful for supply chain teams, inventory planners, and analysts because it highlights both demand patterns and data integrity challenges, offering a clearer understanding of how real-world events shape both operations and reporting.
 
+## Question 3:
+***SQL Code:***
+<img width="558" height="266" alt="Screenshot 2025-11-17 at 10 33 32 PM" src="https://github.com/user-attachments/assets/bd0288da-56fe-4849-919a-3668158b1307" />
+
+***Snowflake Analysis:***
+<img width="815" height="384" alt="Screenshot 2025-11-17 at 10 04 05 PM" src="https://github.com/user-attachments/assets/9cf94079-4e14-4617-8b8e-5f1e38b8da01" />
+
+To better understand product-level performance, we wrote a query that filters the dataset by item description, isolating all beer-related items and grouping them by brand. By aggregating total retail sales for each product, we were able to rank brands based on overall demand and identify the top performers. This analysis revealed that Corona Extra Loose Top was the highest-selling beer product in the dataset, making it a clear standout in consumer preference.
+We represented this insight in a scorecard visualization, allowing users to instantly see the top performer and its total retail sales value. Additionally, we created a ranked list of the top 5 beer performers, giving sales analysts, category managers, and inventory planners a quick snapshot of high-impact products. This ranking helps guide purchasing decisions, promotional strategies, and inventory optimization across retail and warehouse operations.
+
+
 
 **Link to Snowflake dashboard:**
 https://app.snowflake.com/us-east-1/ilc76480/#/project-2-mist-4610-dKoEfiwWY 
