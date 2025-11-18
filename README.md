@@ -24,3 +24,4 @@ Firstly, we consolidated our data to only include the years 2019 and 2020- the o
 ## Analysis and Results:
 ### SQL Code:
 **Link to Snowflake dashboard:**
+https://app.snowflake.com/us-east-1/ilc76480/#/project-2-mist-4610-dKoEfiwWY 
